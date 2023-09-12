@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="en">
+<!--<![endif]-->
+
+<!-- Mirrored from opencart.lionode.com/themini/oc082017/oc01/index.php?route=account/register by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Sep 2023 16:40:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Register Account</title>
+<base  />
+<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,400i,600,700" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/oc01/stylesheet/stylesheet.css" rel="stylesheet">
+<link href="catalog/view/theme/oc01/stylesheet/bootstrap.min.css" rel="stylesheet">
+<link href="catalog/view/theme/oc01/stylesheet/jquery.fancybox.css" rel="stylesheet">
+<link href="catalog/view/javascript/jquery/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+
+<link href="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet" media="screen" />
+<script src="catalog/view/javascript/jquery/datetimepicker/moment/moment.min.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/jquery/datetimepicker/moment/moment-with-locales.min.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/jquery.elevatezoom.min.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/tabs.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/parallax.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/template_js/template.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/template_js/jquery.firstVisitPopup.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="catalog/view/javascript/jquery.fancybox.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.js"></script>
+
+<script>
+	$(function () {
+		$('#subscribe-me').firstVisitPopup({
+			cookieName : 'opc3themini1',
+			showAgainSelector: '#show-message'
+		});
+	});			
+</script>
+<script>
+$(document).ready(function(){
+	$(".quickview").fancybox({		
+		type: 		'iframe'
+	}); 
+	
+	$(".fancybox").fancybox();
+	
+	
+});
+
+</script>
+<link href="image/catalog/cart.png" rel="icon" />
+
+
+</head>
+      	 
+<body class="page_account page_register lang_en layout-2 left-col">
+<nav id="top">
+  <div class="container">
+    <div class="row">
+    <div class="contact pull-left"><a href="index2724.html?route=information/contact">Call now !</a> <span class="hidden-xs hidden-sm hidden-md">+91 987-654-321</span></div>
+<div id="top-links" class="nav pull-right">
+      <ul class="list-inline">
+        
+        <li class="dropdown myaccount"><a href="indexe223.html?route=account/account" title="My Account" class="dropdown-toggle" data-toggle="dropdown"> <span class="hidden-sm hidden-md">My Account</span><i class="fa fa-angle-down"></i></a>
+          <ul class="dropdown-menu dropdown-menu-right myaccount-menu">
+                        <li><a href="index5502.html?route=account/register">Register</a></li>
+            <li><a href="indexe223.html?route=account/login">Login</a></li>
+                      
+        <li class="wishlist"><a href="indexe223.html?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">Wish List (0)</span></a></li>
+        <li class="checkout"><a href="index630e.html?route=checkout/checkout" title="Checkout"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Checkout</span></a></li>
+        </ul>
+        </li>
+      </ul>
+      <div class="lang">
+  <form action="https://opencart.lionode.com/themini/oc082017/oc01/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
+    <div class="btn-group">
+      <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+             
+      <img src="catalog/language/en-gb/en-gb.png" alt="English" title="English">
+                              <span class="hidden-xs hidden-sm hidden-md">Language</span>&nbsp;<i class="fa fa-angle-down"></i></button>
+      <ul class="dropdown-menu">
+                <li>
+          <button class="btn btn-link btn-block language-select" type="button" name="en-gb"><img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English</button>
+        </li>
+                <li>
+          <button class="btn btn-link btn-block language-select" type="button" name="ar"><img src="catalog/language/ar/ar.png" alt="Arabic" title="Arabic" /> Arabic</button>
+        </li>
+              </ul>
+    </div>
+    <input type="hidden" name="code" value="" />
+    <input type="hidden" name="redirect" value="https://opencart.lionode.com/themini/oc082017/oc01/index.php?route=account/register" />
+  </form>
+</div>
+
+       <div class="curr">
+  <form action="https://opencart.lionode.com/themini/oc082017/oc01/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
+    <div class="btn-group">
+      <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">                               <strong>$</strong>        <span class="hidden-xs hidden-sm hidden-md">Currency</span>&nbsp;<i class="fa fa-angle-down"></i></button>
+      <ul class="dropdown-menu">
+                        <li>
+          <button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button>
+        </li>
+                                <li>
+          <button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button>
+        </li>
+                                <li>
+          <button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button>
+        </li>
+                      </ul>
+    </div>
+    <input type="hidden" name="code" value="" />
+    <input type="hidden" name="redirect" value="https://opencart.lionode.com/themini/oc082017/oc01/index.php?route=account/register" />
+  </form>
+</div>
+ 
+    
+    
+    </div>
+  </div>
+  </div>
+</nav>
+<header>
+  <div class="container">
+    <div class="row">
+    <div class="header-search col-xs-7 col-sm-5 col-md-4"><div id="search" class="input-group">
+  <input type="text" name="search" value="" placeholder="Search" class="form-control input-lg" />
+  <span class="input-group-btn">
+    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
+  </span>
+</div></div>
+	
+      <div class="header-logo col-md-4 col-sm-3 col-xs-12">
+        <div id="logo"><a href="index9328.html?route=common/home"><img src="image/catalog/logo.png" title="Themini" alt="Themini" class="img-responsive" /></a></div>
+      </div>
+      <div class="header-cart pull-right col-xs-12 col-sm-4 col-md-4"><div id="cart" class="btn-group btn-block">
+   <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><span id="shippingcart">Shopping cart</span><span id="cart-total">items (0)</span>
+  <span class="res_cart_total">(0)</span></button>
+  <ul class="dropdown-menu pull-right">
+        <li>
+      <p class="text-center">Your shopping cart is empty!</p>
+    </li>
+      </ul>
+</div>
+</div>
+	 
+	  <div class="header-menu col-md-12 col-sm-12 col-xs-12">
+    <span class="responsive-bar collapsed" data-target="#responsive-menu" data-toggle="collapse"><i class="fa fa-bars"></i></span>
+	 
+      <nav id="menu" class="navbar">
+<div class="navbar-header"> <span id="category" class="visible-xs">Categories</span>
+  <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+</div>
+<div class="collapse navbar-collapse navbar-ex1-collapse">
+  <ul class="nav navbar-nav main-navigation">
+    <li class="main_cat"> <a href="#">Home</a></li>
+            <li class="main_cat dropdown"><a href="desktops.html">Women</a>
+      <div class="dropdown-menu megamenu column2"> 
+       <div class="dropdown-inner">
+                <ul class="list-unstyled childs_1">
+           
+          <!-- 2 Level Sub Categories START --> 
+          
+                    <li class="dropdown"><a href="index6dbd.html?route=product/category&amp;path=20_59">Ethnic wear</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-inner">
+                              <ul class="list-unstyled childs_2">
+                                    <li><a href="index4796.html?route=product/category&amp;path=20_59_61"> Indo-Western Outfit</a></li>
+                                    <li><a href="indexb87b.html?route=product/category&amp;path=20_59_62">Dress Material</a></li>
+                                    <li><a href="index178a.html?route=product/category&amp;path=20_59_63">Dupattas &amp; Stoles</a></li>
+                                    <li><a href="index1301.html?route=product/category&amp;path=20_59_64">Kurtas &amp; Kurtis</a></li>
+                                    <li><a href="index4c89.html?route=product/category&amp;path=20_59_65">Salwars &amp; Churidars</a></li>
+                                    <li><a href="index5a75.html?route=product/category&amp;path=20_59_66">Suits Sets</a></li>
+                                  </ul>
+                 
+              </div>
+         </div>
+            </li>
+           
+          <!-- 2 Level Sub Categories END --> 
+                  </ul>
+		
+                <ul class="list-unstyled childs_1">
+           
+          <!-- 2 Level Sub Categories START --> 
+          
+                    <li class="dropdown"><a href="index63f3.html?route=product/category&amp;path=20_60">Clothing</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-inner">
+                              <ul class="list-unstyled childs_2">
+                                    <li><a href="indexd5cb.html?route=product/category&amp;path=20_60_67">āčēģīķļņšūž</a></li>
+                                    <li><a href="indexd363.html?route=product/category&amp;path=20_60_68">Dresses &amp; Jumpsuits</a></li>
+                                    <li><a href="indexdf68.html?route=product/category&amp;path=20_60_69">Islamic Clothing</a></li>
+                                    <li><a href="index1e1d.html?route=product/category&amp;path=20_60_70">Leggings &amp; Jeggings</a></li>
+                                    <li><a href="indexca9f.html?route=product/category&amp;path=20_60_71">Tops , tees &amp; shirts</a></li>
+                                    <li><a href="indexe6a7.html?route=product/category&amp;path=20_60_72">Trousers &amp; Jeans</a></li>
+                                  </ul>
+                 
+              </div>
+         </div>
+            </li>
+           
+          <!-- 2 Level Sub Categories END --> 
+                  </ul>
+		
+                
+         </div>
+       <div class="menu_image">   <img src="image/cache/catalog/menu-banner-236x266.png" alt="" title="" class="img-thumbnail" /> </div>           </div>
+    </li>
+	
+                <li class="main_cat"><a href="tablet.html">Kids </a>      
+    </li>
+
+                <li class="main_cat"><a href="component.html">Men </a>      
+    </li>
+
+                <li class="main_cat"><a href="software.html">Home &amp; Living  </a>      
+    </li>
+
+                <li class="main_cat"><a href="designercloths.html">Designer cloths </a>      
+    </li>
+
+        	<li> <a href="#">Blog</a>
+  </ul>
+  </div>
+</nav> 
+
+<div id="responsive-menu" class="nav-container1 nav-responsive navbar collapse">
+
+    <div class="navbar-collapse navbar-ex1-collapse collapse in">
+              <ul class="nav navbar-nav">
+                								<li class="collapsed" data-toggle="collapse" data-target="#Women"><a href="desktops.html">Women</a>
+				 
+				 <span><i class="fa fa-plus"></i></span>
+				  <ul class="menu-dropdown collapse" id="Women">
+					 					 
+												<li><a href="index6dbd.html?route=product/category&amp;path=20_59">Ethnic wear</a>					
+						</li>
+											  
+					  					 
+												<li><a href="index63f3.html?route=product/category&amp;path=20_60">Clothing</a>					
+						</li>
+											  
+					  					</ul>
+				</li>
+																<li><a href="tablet.html">Kids</a></li>
+																<li><a href="component.html">Men</a></li>
+																<li><a href="software.html">Home &amp; Living </a></li>
+																<li><a href="designercloths.html">Designer cloths</a></li>
+								  
+                 <li> <a href="#">Blog</a></li>
+              </ul>
+            </div></div>
+ 
+    
+
+    
+       </div>
+
+   </div>
+  </div>
+</header>
+<div class="content-top-breadcum cms_parallax" data-source-url="image/catalog/parallax.jpg">
+</div>
+
+
+
+<div id="account-register" class="container">
+  <ul class="breadcrumb">
+        <li><a href="index9328.html?route=common/home"><i class="fa fa-home"></i></a></li>
+        <li><a href="indexe223.html?route=account/account">Account</a></li>
+        <li><a href="index5502.html?route=account/register">Register</a></li>
+      </ul>
+    <div class="row"><aside id="column-left" class="col-sm-3 hidden-xs">
+    <div class="section sidebar">
+  <div class="section-heading">Account</div>
+ <div class="list-group">
+    <a href="indexe223.html?route=account/login" class="list-group-item">Login</a> <a href="index5502.html?route=account/register" class="list-group-item">Register</a> <a href="indexacda.html?route=account/forgotten" class="list-group-item">Forgotten Password</a>
+   <a href="indexe223.html?route=account/account" class="list-group-item">My Account</a>
+    <a href="indexe223.html?route=account/address" class="list-group-item">Address Book</a> <a href="indexe223.html?route=account/wishlist" class="list-group-item">Wish List</a> <a href="indexe223.html?route=account/order" class="list-group-item">Order History</a> <a href="indexe223.html?route=account/download" class="list-group-item">Downloads</a><a href="indexe223.html?route=account/recurring" class="list-group-item">Recurring payments</a> <a href="indexe223.html?route=account/reward" class="list-group-item">Reward Points</a> <a href="indexe223.html?route=account/return" class="list-group-item">Returns</a> <a href="indexe223.html?route=account/transaction" class="list-group-item">Transactions</a> <a href="indexe223.html?route=account/newsletter" class="list-group-item">Newsletter</a>
+  </div>
+</div>
+
+  </aside>
+
+                <div id="content" class="col-sm-9">
+      <h1>Register Account</h1>
+      <p>If you already have an account with us, please login at the <a href="indexe223.html?route=account/login">login page</a>.</p>
+      <form action="https://opencart.lionode.com/themini/oc082017/oc01/index.php?route=account/register" method="post" enctype="multipart/form-data" class="form-horizontal">
+        <fieldset id="account">
+          <legend>Your Personal Details</legend>
+          <div class="form-group required" style="display:  none ;">
+            <label class="col-sm-2 control-label">Customer Group</label>
+            <div class="col-sm-10">                            <div class="radio">
+                <label>
+                  <input type="radio" name="customer_group_id" value="1" checked="checked" />
+                  Default</label>
+              </div>
+                            </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-firstname">First Name</label>
+            <div class="col-sm-10">
+              <input type="text" name="firstname" value="" placeholder="First Name" id="input-firstname" class="form-control" />
+               </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-lastname">Last Name</label>
+            <div class="col-sm-10">
+              <input type="text" name="lastname" value="" placeholder="Last Name" id="input-lastname" class="form-control" />
+               </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-email">E-Mail</label>
+            <div class="col-sm-10">
+              <input type="email" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control" />
+               </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-telephone">Telephone</label>
+            <div class="col-sm-10">
+              <input type="tel" name="telephone" value="" placeholder="Telephone" id="input-telephone" class="form-control" />
+               </div>
+          </div>
+                  </fieldset>
+        <fieldset>
+          <legend>Your Password</legend>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-password">Password</label>
+            <div class="col-sm-10">
+              <input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control" />
+               </div>
+          </div>
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-confirm">Password Confirm</label>
+            <div class="col-sm-10">
+              <input type="password" name="confirm" value="" placeholder="Password Confirm" id="input-confirm" class="form-control" />
+               </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Newsletter</legend>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Subscribe</label>
+            <div class="col-sm-10">               <label class="radio-inline">
+                <input type="radio" name="newsletter" value="1" />
+                Yes</label>
+              <label class="radio-inline">
+                <input type="radio" name="newsletter" value="0" checked="checked" />
+                No</label>
+               </div>
+          </div>
+        </fieldset>
+        
+                <div class="buttons">
+          <div class="pull-right">I have read and agree to the <a href="index11ee.html?route=information/information/agree&amp;information_id=3" class="agree"><b>Privacy Policy</b></a>
+                        <input type="checkbox" name="agree" value="1" />
+                        &nbsp;
+            <input type="submit" value="Continue" class="btn btn-primary" />
+          </div>
+        </div>
+              </form>
+      </div>
+    </div>
+</div>
+<script type="text/javascript"><!--
+// Sort the custom fields
+$('#account .form-group[data-sort]').detach().each(function() {
+	if ($(this).attr('data-sort') >= 0 && $(this).attr('data-sort') <= $('#account .form-group').length) {
+		$('#account .form-group').eq($(this).attr('data-sort')).before(this);
+	}
+
+	if ($(this).attr('data-sort') > $('#account .form-group').length) {
+		$('#account .form-group:last').after(this);
+	}
+
+	if ($(this).attr('data-sort') == $('#account .form-group').length) {
+		$('#account .form-group:last').after(this);
+	}
+
+	if ($(this).attr('data-sort') < -$('#account .form-group').length) {
+		$('#account .form-group:first').before(this);
+	}
+});
+
+$('input[name=\'customer_group_id\']').on('change', function() {
+	$.ajax({
+		url: 'index.php?route=account/register/customfield&customer_group_id=' + this.value,
+		dataType: 'json',
+		success: function(json) {
+			$('.custom-field').hide();
+			$('.custom-field').removeClass('required');
+
+			for (i = 0; i < json.length; i++) {
+				custom_field = json[i];
+
+				$('#custom-field' + custom_field['custom_field_id']).show();
+
+				if (custom_field['required']) {
+					$('#custom-field' + custom_field['custom_field_id']).addClass('required');
+				}
+			}
+		},
+		error: function(xhr, ajaxOptions, thrownError) {
+			alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		}
+	});
+});
+
+$('input[name=\'customer_group_id\']:checked').trigger('change');
+//--></script> 
+<script type="text/javascript"><!--
+$('button[id^=\'button-custom-field\']').on('click', function() {
+	var element = this;
+
+	$('#form-upload').remove();
+
+	$('body').prepend('<form enctype="multipart/form-data" id="form-upload" style="display: none;"><input type="file" name="file" /></form>');
+
+	$('#form-upload input[name=\'file\']').trigger('click');
+
+	if (typeof timer != 'undefined') {
+    	clearInterval(timer);
+	}
+
+	timer = setInterval(function() {
+		if ($('#form-upload input[name=\'file\']').val() != '') {
+			clearInterval(timer);
+
+			$.ajax({
+				url: 'index.php?route=tool/upload',
+				type: 'post',
+				dataType: 'json',
+				data: new FormData($('#form-upload')[0]),
+				cache: false,
+				contentType: false,
+				processData: false,
+				beforeSend: function() {
+					$(element).button('loading');
+				},
+				complete: function() {
+					$(element).button('reset');
+				},
+				success: function(json) {
+					$(element).parent().find('.text-danger').remove();
+
+					if (json['error']) {
+						$(node).parent().find('input').after('<div class="text-danger">' + json['error'] + '</div>');
+					}
+
+					if (json['success']) {
+						alert(json['success']);
+
+						$(element).parent().find('input').val(json['code']);
+					}
+				},
+				error: function(xhr, ajaxOptions, thrownError) {
+					alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+				}
+			});
+		}
+	}, 500);
+});
+//--></script> 
+<script type="text/javascript"><!--
+$('.date').datetimepicker({
+	language: 'en-gb',
+	pickTime: false
+});
+
+$('.time').datetimepicker({
+	language: 'en-gb',
+	pickDate: false
+});
+
+$('.datetime').datetimepicker({
+	language: 'en-gb',
+	pickDate: true,
+	pickTime: true
+});
+//--></script> 
+<footer>
+  <div id="footer" class="footer_top">
+  <div class="container"><div class="row">
+   <div class="footer-top">  <div class="footer-cms-left col-xs-6 col-sm-7 col-md-7">
+<div class="footer-logo"><img class="img-logo" src="image/catalog/footer-logo.png" alt="footer-logo"></div>
+<div class="footer-desc">Lorem ipsum doLorem ipsum dolor sit amet, consectetur adipisicagna.Lorem ipsum doL</div>
+</div>
+<div class="footer-cms-right col-xs-6 col-sm-5 col-md-5">
+<div class="testimonial owl-carousel">
+<div class="item"><img class="img-testimonial testimonial-img img1" src="image/catalog/testimonial_img1.jpg" alt="people"><div class="testmonial-author-name">Johny walker </div><div class="testmonial-author"> - Lorem ipsum</div><span class="desc">Amet, consectetur adipisicing elit, sed do iusmod tempor incididunt ut</span></div>
+<div class="item"><img class="img-testimonial testimonial-img img2" src="image/catalog/testimonial_img2.jpg" alt="people"><div class="testmonial-author-name">Johny walker </div><div class="testmonial-author"> - Lorem ipsum</div><span class="desc">Amet, consectetur adipisicing elit, sed do iusmod tempor incididunt ut</span></div>
+<div class="item"><img class="img-testimonial testimonial-img img3" src="image/catalog/testimonial_img3.jpg" alt="people"><div class="testmonial-author-name">Johny walker </div><div class="testmonial-author"> - Lorem ipsum</div><span class="desc">Amet, consectetur adipisicing elit, sed do iusmod tempor incididunt ut</span></div>
+</div>
+</div> 
+
+</div> </div>
+   <hr />
+    <div class="row footer_block"> 
+    
+      
+           <div class="col-xs-12 col-sm-12 col-md-3 column information">
+   <h4>Information</h4>
+        <h5 class="collapsed" data-target="#dropdown-information" data-toggle="collapse">Information
+             <span class="icon"></span></h5>        
+        <ul class="list-unstyled collapse" id="dropdown-information">
+         
+		            <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="delivery.html">Delivery Information</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                    <li><a href="index2724.html?route=information/contact">Contact Us</a></li>
+        </ul>
+      </div>
+            
+       <div class="col-xs-12 col-sm-12 col-md-3 column">
+        <h4>Customer Service</h4>
+         <h5 class="collapsed" data-target="#dropdown-service" data-toggle="collapse">Customer Service
+             <span class="icon"></span></h5>  
+       <ul class="list-unstyled collapse" id="dropdown-service">
+          <li><a href="index71ba.html?route=account/return/add">Returns</a></li>
+          <li><a href="index7cb2.html?route=information/sitemap">Site Map</a></li>
+          <li><a href="indexe223.html?route=account/wishlist">Wish List</a></li>
+          <li><a href="indexe223.html?route=account/account">My Account</a></li>
+          <li><a href="indexe223.html?route=account/order">Order History</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-xs-12 col-sm-12 col-md-3 column">
+        <h4>Extras</h4>
+         <h5 class="collapsed" data-target="#dropdown-extra" data-toggle="collapse">Extras
+             <span class="icon"></span></h5>  
+        <ul class="list-unstyled collapse" id="dropdown-extra">
+          <li><a href="indexd773.html?route=product/manufacturer">Brands</a></li>
+          <li><a href="index4dd2.html?route=account/voucher">Gift Certificates</a></li>
+          <li><a href="index3d18.html?route=affiliate/login">Affiliate</a></li>
+          <li><a href="indexf110.html?route=product/special">Specials</a></li>
+           <li><a href="indexe223.html?route=account/newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="footer-top-right col-xs-12 col-sm-12 col-md-3 col-lg-3 column">  <div class="footer-static">
+<h4>Contacts</h4>
+<h5 class="collapsed" data-target="#dropdown-contact" data-toggle="collapse">Contacts <span class="icon"></span> </h5>
+<ul class="list-unstyled collapse" id="dropdown-contact">
+<li class="item">Warehouse &amp; Offices, <br>12345 Street name, California USA</li>
+<li class="item email"><a href="mailto:info@customdesign.com?Subject=Feedback&amp;Body=start">info@customdesign.com</a></li>
+<li class="item call">(+91) 12-3456-7890</li>
+</ul>
+</div>
+
+ </div>
+      
+     
+    </div> </div></div>
+    <div class="footer_bottom_container container">
+      
+    <div class="Footer-bottom row">
+      <div class="footer-bottom-left col-md-4 col-sm-12 col-xs-12">  <div class="footer-bottom-section3 footer_social">
+<ul class="social-icon">
+<li><a class="facebook" title="Facebook" href="#"><i class="fa fa-facebook"> </i>&nbsp;</a></li>
+<li><a class="twitter" title="Twitter" href="#"><i class="fa fa-twitter"> </i>&nbsp;</a></li>
+<li><a class="linkedin" title="Linkedin" href="#"><i class="fa fa-linkedin"> </i>&nbsp;</a></li>
+<li><a class="rss" title="RSS" href="#"><i class="fa fa-rss"> </i>&nbsp;</a></li>
+<li><a class="pinterest" title="Pinterest" href="#"><i class="fa fa-pinterest"> </i>&nbsp;</a></li>
+</ul>
+</div>
+
+ </div>
+      <div class="copy-right col-md-4 col-sm-12 col-xs-12">
+        <div id="powered">Powered By <a href="http://www.opencart.com/">OpenCart</a> Themini &copy; 2023</div>
+      </div>
+      <div class="footer-bottom-right col-md-4 col-sm-12 col-xs-12">  <div class="footer-bottom-section1 footer_payment">
+<div class="payment">
+<ul class="payment_icon">
+<li class="discover"><a href="#"><span>discover</span></a></li>
+<li class="visa"><a href="#"><span>visa</span></a></li>
+<li class="mastro"><a href="#"><span>mastro</span></a></li>
+<li class="paypal"><a href="#"><span>paypal</span></a></li>
+</ul>
+</div>
+</div>
+
+ </div>
+    </div>
+    <div class="bottom-footer col-sm-12">
+      <ul class="list-unstyled">
+        <li><a href="indexf110.html?route=product/special">Specials</a></li>
+        
+        <li><a href="index4dd2.html?route=account/voucher">Gift Certificates</a></li>
+        <li><a href="indexd773.html?route=product/manufacturer">Brands</a></li>
+        <li><a href="index71ba.html?route=account/return/add">Returns</a></li>
+        <li><a href="index7cb2.html?route=information/sitemap">Site Map</a></li>
+        <li class="contact"><a href="index2724.html?route=information/contact">Contact Us</a></li>
+      </ul>
+    </div>
+    </div>
+</footer>
+
+
+					
+			<script type="text/javascript"><!--
+				var live_search = {
+					selector: '#search input[name=\'search\']',
+					text_no_matches: 'There is no product that matches the search criteria.',
+					height: '50px'
+				}
+
+				$(document).ready(function() {
+					var html = '';
+					html += '<div class="live-search">';
+					html += '	<ul>';
+					html += '	</ul>';
+					html += '<div class="result-text"></div>';
+					html += '</div>';
+
+					//$(live_search.selector).parent().closest('div').after(html);
+					$(live_search.selector).after(html);
+
+					$(live_search.selector).autocomplete({
+						'source': function(request, response) {
+							var filter_name = $(live_search.selector).val();
+							var cat_id = 0;
+							var module_live_search_min_length = '1';
+							if (filter_name.length < module_live_search_min_length) {
+								$('.live-search').css('display','none');
+							}
+							else{
+								var html = '';
+								html += '<li style="text-align: center;height:10px;">';
+								html +=	'<img class="loading" src="catalog/view/theme/oc01/image/loading.gif" />';
+								html +=	'</li>';
+								$('.live-search ul').html(html);
+								$('.live-search').css('display','block');
+
+								$.ajax({
+									url: 'index.php?route=extension/module/live_search&filter_name=' +  encodeURIComponent(filter_name),
+									dataType: 'json',
+									success: function(result) {
+										var products = result.products;
+										$('.live-search ul li').remove();
+										$('.result-text').html('');
+										if (!$.isEmptyObject(products)) {
+											var show_image = 1;
+											var show_price = 1;
+											var show_description = 0;
+											$('.result-text').html('<a href="https://opencart.lionode.com/themini/oc082017/oc01/index.php?route=product/search&amp;search='+filter_name+'" class="view-all-results">    View all results       ('+result.total+')</a>');
+
+											$.each(products, function(index,product) {
+												var html = '';
+
+												html += '<li>';
+												html += '<a href="' + product.url + '" title="' + product.name + '">';
+												if(product.image && show_image){
+													html += '	<div class="product-image"><img alt="' + product.name + '" src="' + product.image + '"></div>';
+												}
+												html += '	<div class="product-name">' + product.name ;
+												if(show_description){
+													html += '<p>' + product.extra_info + '</p>';
+												}
+												html += '</div>';
+												if(show_price){
+													if (product.special) {
+														html += '	<div class="product-price"><span class="special">' + product.price + '</span><span class="price">' + product.special + '</span></div>';
+													} else {
+														html += '	<div class="product-price"><span class="price">' + product.price + '</span></div>';
+													}
+												}
+												html += '<span style="clear:both"></span>';
+												html += '</a>';
+												html += '</li>';
+												$('.live-search ul').append(html);
+											});
+										} else {
+											var html = '';
+											html += '<li style="text-align: center;height:10px;">';
+											html +=	live_search.text_no_matches;
+											html +=	'</li>';
+
+											$('.live-search ul').html(html);
+										}
+										$('.live-search').css('display','block');
+										return false;
+									}
+								});
+							}
+						},
+						'select': function(product) {
+							$(live_search.selector).val(product.name);
+						}
+					});
+
+					$(document).bind( "mouseup touchend", function(e){
+					  var container = $('.live-search');
+					  if (!container.is(e.target) && container.has(e.target).length === 0)
+					  {
+					    container.hide();
+					  }
+					});
+				});
+			//--></script>
+		            
+<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/owl-carousel/owl.transitions.css" />
+
+<script>
+$(document).ready(function(){
+ $('.testimonial').owlCarousel({
+		items: 1,
+		autoPlay: true,
+		singleItem: true,
+		navigation: false,	
+		pagination: true,
+		itemsDesktop : [1199,3],
+		itemsDesktopSmall :	[991,3],
+		itemsTablet : [650,2],
+		itemsMobile : [479,1]
+	});
+});
+</script>
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</body>
+<!-- Mirrored from opencart.lionode.com/themini/oc082017/oc01/index.php?route=account/register by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Sep 2023 16:40:32 GMT -->
+</html> 
